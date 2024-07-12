@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.get-background{
+    background-color: rgb(15,118,110);
+    color: white;
+}
+.nav-item:hover{
+    border-bottom: 1px solid grey;
+}
+strong{
+    color: rgb(169,121,43);
+}
+.free{
+    font-size: 20px;
+}
+.bttn{
+    background-color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 4px double rgb(213, 213, 213);
+}
+.bttn:hover{
+    background-color: rgb(240, 240, 240);
+}
+.time{
+    font-size: 30px;
+}
+.wish{
+    font-size: 18px;
+}
