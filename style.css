@@ -30,3 +30,42 @@ strong{
 .wish{
     font-size: 18px;
 }
+.learn,.build,.connect{
+    font-size: 20px;
+}
+.curated,.worthy,.community{
+    font-size: 16px;
+}
+.intermediate{
+    width: 144px;
+    height: 160px;
+}
+.inter{
+    background-color: white;
+    width: 224px;
+    height:308px;
+    border-radius: 10px;
+}
+.add{
+    font-size: 20px;
+}
+a{
+    border: none;
+    text-decoration: none;
+}
+.main{
+    background-color: rgb(243,244,246);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.bttn-1{
+    background-color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    
+}
