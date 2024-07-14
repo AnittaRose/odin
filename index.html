@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 
+
     <title>odinproject</title>
   </head>
   <body>
@@ -18,7 +19,10 @@
         <div class="container">
             <nav class="navbar navbar-light">
                 <div class="container-fluid ">
-                <a class="navbar-brand"><img src="./images/odin-icon.svg" alt=""></a>
+                  <div class="d-flex justify-content-center align-items-center">
+                      <a class="navbar-brand"><img src="./images/odin-icon.svg" alt=""></a>
+                      <div class="logo-text">THE ODIN PROJECT</div>
+                  </div>
                 <form class="d-flex">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
@@ -37,9 +41,10 @@
                           <li class="nav-item">
                             <a class="nav-link link-secondary  fw-bold" href="#">Sign in</a>
                           </li>
-                            <a class="navbar-brand"><img src="./images/icons8-brightness-32.png" alt=""></a>
+                            <a class="navbar-brand hide"><img src="./images/icons8-brightness-32.png" alt=""></a>
                     </ul>
-                    <button class="btn btn-outline-success get-background" type="submit">Get Started</button>
+                    <button class="btn btn-outline-success get-background hide" type="submit">Get Started</button>
+                    <div class=""><a href=""><img src="./images/icons8-menu-30.png" alt=""></a></div>
                 </form>
                 </div>
             </nav>
@@ -59,80 +64,100 @@
         <div class="container text-center">
             <div class="time text-center pt-5 fw-bold">How it works</div>
             <div class="wish pt-3">This is the website we wish we had when we were learning on our own. We scour the <br>internet looking for only the best resources to supplement your learning and present them <br>in a logical order.</div>
-            <div class="work-img d-flex justify-content-evenly align-items-center">
-      
-              <div class="pt-5"><img src="./images/img-learn.svg" alt="">
-                <div class="learn  pt-4">Learn</div>
-                <div class="curated pt-4">Learn from a curriculum with the best<br> curated online tutorials, blogs, and <br> courses.</div>
-              </div>
-              <div class="pt-5"><img src="./images/imgbuild.svg" alt="">
-                <div class="build  pt-4">Build</div>
-                <div class="worthy pt-4">Build dozens of portfolio-worthy<br> projects along the way, from simple<br> scripts to full programs and deployed <br> websites.</div>
-              </div>
-              <div class=""><img src="./images/connect.svg" alt="">
-                <div class="connect pt-4 ">Connect</div>
-                <div class="community pt-4">You're not alone. Learn and get help<br> from our friendly community of<br> beginner and experienced developers.
+           
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="pt-5"><img src="./images/img-learn.svg" alt="">
+                      <div class="learn  pt-4">Learn</div>
+                      <div class="curated pt-4">Learn from a curriculum with the best<br> curated online tutorials, blogs, and <br> courses.</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="pt-5"><img src="./images/imgbuild.svg" alt="">
+                      <div class="build  pt-4">Build</div>
+                      <div class="worthy pt-4">Build dozens of portfolio-worthy<br> projects along the way, from simple<br> scripts to full programs and deployed <br> websites.</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class=""><img src="./images/connect.svg" alt="">
+                      <div class="connect pt-4 ">Connect</div>
+                      <div class="community pt-4">You're not alone. Learn and get help<br> from our friendly community of<br> beginner and experienced developers.
+                      </div>
+                    </div>
+                  
+                  </div>
                 </div>
-              </div>
-             
-
               </div>
             </div>
         </div>
 
 
         <div class=" p-5 main">
-          <div class="know fw-bold fs-1 text-center">Learn everything you need to know</div>
-          <div class="container ">
-           
-            <div class="section pt-5">
+          
+          <div class="container">
+            <div class="know fw-bold fs-1 text-center">Learn everything you need to know</div>
+
+
+          <div class="work-section">
+            <div class="">
               <a href="" class="link-dark "><div class="inter text-center pt-5">
                 <img src="./images/intermediate.svg" class="intermediate">
                 <div class="add fw-bold">Intermediate <br>HTML and <br>CSS</div>
                 </div>
-              </a>
-
+              </a> 
+            </div>
+            <div class="">
               <div class="inter text-center pt-5">
                 <img src="./images/advanced.svg" class="intermediate">
                 <div class="add fw-bold">Advanced <br>HTML and <br>CSS</div>
               </div>
+            </div>
+            <div class="">
               <div class="inter text-center pt-5">
                 <img src="./images/database.svg" class="intermediate">
                 <div class="add fw-bold">Database</div>
               </div>
             </div>
-
-
-
-          <div class="section pt-5">
-            <div class="inter text-center pt-5">
-              <img src="./images/node.svg" class="intermediate">
-              <div class="add fw-bold">Node js</div>
+            <div class="">
+              <div class="inter text-center pt-5">
+                <img src="./images/node.svg" class="intermediate">
+                <div class="add fw-bold">Node js</div>
+              </div>
             </div>
-            <div class="inter text-center pt-5">
-              <img src="./images/js.svg" class="intermediate">
-              <div class="add fw-bold">Javascript</div>
+            <div class="">
+              <div class="inter text-center pt-5">
+                <img src="./images/js.svg" class="intermediate">
+                <div class="add fw-bold">Javascript</div>
+              </div> 
             </div>
-            <div class="inter text-center pt-5">
-              <img src="./images/hired.svg" class="intermediate">
-              <div class="add fw-bold">Getting Hired</div>
+            <div class="">
+              <div class="inter text-center pt-5">
+                <img src="./images/hired.svg" class="intermediate">
+                <div class="add fw-bold">Getting Hired</div>
+              </div>
+            </div>
+            <div class="">
+              <div class="inter text-center pt-5">
+                <img src="./images/react.svg" class="intermediate">
+                <div class="add fw-bold">React</div>
+              </div>
+            </div>
+            <div class="">
+              <div class="inter text-center pt-5">
+                <img src="./images/ruby.svg" class="intermediate">
+                <div class="add fw-bold">Ruby on rails</div>
+              </div>
+            </div>
+            <div class="">
+              <div class="inter text-center pt-5">
+                <img src="./images/ruby2.svg" class="intermediate">
+                <div class="add fw-bold">Ruby</div>
+              </div>
             </div>
           </div>
 
-          <div class="section pt-5">
-            <div class="inter text-center pt-5">
-              <img src="./images/react.svg" class="intermediate">
-              <div class="add fw-bold">React</div>
-            </div>
-            <div class="inter text-center pt-5">
-              <img src="./images/ruby.svg" class="intermediate">
-              <div class="add fw-bold">Ruby on rails</div>
-            </div>
-            <div class="inter text-center pt-5">
-              <img src="./images/ruby2.svg" class="intermediate">
-              <div class="add fw-bold">Ruby</div>
-            </div>
-          </div>
 
           <div class="pt-4 text-center">
             <button class="fs-5 p-2 bttn-1 justify-content-center">Explore curriculum</button>
@@ -141,6 +166,155 @@
           </div>
       
         </div>
+
+     <div class="container-fluid sub-container p-5">
+      <div class="container ">
+
+        <!-- <div class="d-flex">
+          <div class="d-flex">
+            
+            <div><img src="./images/rob.jpg" alt="" class=" rob" ></div>
+            <div class="">Rob pando</div>
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Rob pando</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+          <div class="d-flex">
+            
+            <div><img src="./images/cody_loyd-c885053caab6e551611a18df724fb6b9c8f3a4548668048be0759a8b6d7e74bb.jpg" alt="" class=" rob" ></div>
+             <div class="">Rob pando</div>
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Cody loyd</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-flex">
+            
+            <div><img src="./images/andrej.jpg" alt="" class=" rob" ></div>
+            <div class="">Rob pando</div> 
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Andrej Dragojević</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+          <div class="d-flex">
+            
+            <div><img src="./images/skip-ee50be4677383781878c07fa0c6cf523e6151f4988b67b9e8e6666fa12381a0a.jpg" alt="" class=" rob" ></div>
+             <div class="">Rob pando</div> 
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Skip Gibson</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="pando-image-section">
+          <div class="">
+            <div><img src="./images/rob.jpg" alt="" class=" rob" ></div>
+           
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Rob pando</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+          <div class="">
+            <div><img src="./images/cody_loyd-c885053caab6e551611a18df724fb6b9c8f3a4548668048be0759a8b6d7e74bb.jpg" alt="" class=" rob" ></div>
+            
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Cody loyd</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+          <div class="">
+            <div><img src="./images/andrej.jpg" alt="" class=" rob" ></div>
+        
+            <div>
+              <div class=""><a href="" class="pando link-dark text-decoration-underline">Andrej Dragojević</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+            </div>
+          </div>
+          <div class="">
+            <div><img src="./images/skip-ee50be4677383781878c07fa0c6cf523e6151f4988b67b9e8e6666fa12381a0a.jpg" alt="" class=" rob" ></div>
+            
+           <div>
+             <div class=""><a href="" class="pando link-dark text-decoration-underline">Skip Gibson</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
+           </div>
+         </div>
+         <div class=" text-center">
+          <a href=""  class="link-dark text-decoration-underline">Read more success stories</a>
+         </div>
+        </div>
+
+        <div class="last text-center">
+          <div class=" fs-1 fw-bold text-center pt-5">Support us!</div>
+          <div class="globe pt-3">The Odin Project is funded by the community. Join us in empowering learners<br> around the globe by supporting The Odin Project!</div>
+          <div class="last-bttn pt-3">
+            <button type="button" class="btn btn-light now-1">Learn more</button>
+            <button class="btn btn-outline-success get-background" type="submit">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+       
+
+        <div class="footer-section pt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <a class=""><img src="./images/odin-icon.svg" alt=""></a>
+                      <div class="logo-text">THE ODIN PROJECT</div>
+                    </div>
+                    <div class="pt-3 high">High quality coding education maintained by an open source community.</div>
+
+                  </div>
+                  <div class="col-2">
+                    <ul>
+                      <h6><li class="us">About us</li></h6>
+                      <li>About</li>
+                      <li>Team</li>
+                      <li>Blog</li>
+                      <li>Success Stories</li>
+                    </ul>
+                  </div>
+                  <div class="col-2">
+                    <ul>
+                      <h6><li class="us">Support</li></h6>
+                      <li>FAQ</li>
+                      <li>Contribute</li>
+                      <li>Contact us</li>
+                      
+                    </ul>
+                  </div>
+                  <div class="col-2">
+                    <ul>
+                      <h6><li class="us">Guides</li></h6>
+                      <li>Community guides</li>
+                      <li>Installation guides</li>
+                      
+                    </ul>
+                  </div>
+                  <div class="col-2">
+                    <ul>
+                      <h6><li class="us">Legal</li></h6>
+                      <li>Terms</li>
+                      <li>Privacy</li>
+                      
+                    </ul>
+                  </div>
+                  <span class="border-bottom pt-5"></span>
+                  <span class="p-3 reserved">© 2024 The Odin Project. All rights reserved.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            
+            
+          
+            
+            
+          
+        
         
 
 
