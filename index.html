@@ -44,7 +44,46 @@
                             <a class="navbar-brand hide"><img src="./images/icons8-brightness-32.png" alt=""></a>
                     </ul>
                     <button class="btn btn-outline-success get-background hide" type="submit">Get Started</button>
-                    <div class=""><a href=""><img src="./images/icons8-menu-30.png" alt=""></a></div>
+                    <!-- <div class="menu"><a href=""><img src="./images/icons8-menu-30.png" alt=""></a></div> -->
+                    <a class="btn menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                      <img src="./images/icons8-menu-30.png" alt="">
+                    </a>
+                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                      Button with data-bs-target
+                    </button> -->
+                    
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                      <div class="d-flex ">
+                        <h5 class="" id=""><img src="./images/odin-icon.svg" alt=""></h5>
+                        <span class="odin-text d-flex justify-content-center align-items-center">THE ODIN PROJECT</span>
+                   
+                        <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+                      </div>
+                      <div class="offcanvas-body">
+                        <div>
+                          <span class=""><img src="./images/icons8-home-24.png" alt="">Home</span>
+
+                        </div>
+                        <div>
+                          <span class=""><img src="./images/map2.png" alt="">All Paths</span>
+
+                        </div>
+                        <div>
+                          <span class=""><img src="./images/icons8-about-24.png" alt="">About</span>
+
+                        </div>
+                        <div>
+                          <span class=""><img src="./images/icons8-heart-24.png" alt="">Support us</span>
+
+                        </div>
+                        <div>
+                          <span class=""><img src="./images/icons8-chat-24.png" alt="">community</span>
+
+                        </div>
+
+                        
+                      </div>
+                    </div>
                 </form>
                 </div>
             </nav>
@@ -170,42 +209,7 @@
      <div class="container-fluid sub-container p-5">
       <div class="container ">
 
-        <!-- <div class="d-flex">
-          <div class="d-flex">
-            
-            <div><img src="./images/rob.jpg" alt="" class=" rob" ></div>
-            <div class="">Rob pando</div>
-            <div>
-              <div class=""><a href="" class="pando link-dark text-decoration-underline">Rob pando</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
-            </div>
-          </div>
-          <div class="d-flex">
-            
-            <div><img src="./images/cody_loyd-c885053caab6e551611a18df724fb6b9c8f3a4548668048be0759a8b6d7e74bb.jpg" alt="" class=" rob" ></div>
-             <div class="">Rob pando</div>
-            <div>
-              <div class=""><a href="" class="pando link-dark text-decoration-underline">Cody loyd</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="d-flex">
-            
-            <div><img src="./images/andrej.jpg" alt="" class=" rob" ></div>
-            <div class="">Rob pando</div> 
-            <div>
-              <div class=""><a href="" class="pando link-dark text-decoration-underline">Andrej Dragojević</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
-            </div>
-          </div>
-          <div class="d-flex">
-            
-            <div><img src="./images/skip-ee50be4677383781878c07fa0c6cf523e6151f4988b67b9e8e6666fa12381a0a.jpg" alt="" class=" rob" ></div>
-             <div class="">Rob pando</div> 
-            <div>
-              <div class=""><a href="" class="pando link-dark text-decoration-underline">Skip Gibson</a><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, aut est soluta libero delectus sit, officia esse vel quaerat fugit, praesentium eaque accusantium voluptatem iusto animi recusandae error exercitationem nisi!</div>
-            </div>
-          </div>
-        </div> -->
+      
 
         <div class="pando-image-section">
           <div class="">
@@ -256,9 +260,9 @@
         <div class="footer-section pt-5">
           <div class="container">
             <div class="row">
-              <div class="col">
+              <div class="col d-flex">
                 <div class="row pt-5">
-                  <div class="col-2">
+                  <div class="col-6">
                     <div class="d-flex justify-content-center align-items-center">
                       <a class=""><img src="./images/odin-icon.svg" alt=""></a>
                       <div class="logo-text">THE ODIN PROJECT</div>
@@ -266,6 +270,8 @@
                     <div class="pt-3 high">High quality coding education maintained by an open source community.</div>
 
                   </div>
+                </div>
+                <div class="row">
                   <div class="col-2">
                     <ul>
                       <h6><li class="us">About us</li></h6>
@@ -300,11 +306,13 @@
                       
                     </ul>
                   </div>
-                  <span class="border-bottom pt-5"></span>
-                  <span class="p-3 reserved">© 2024 The Odin Project. All rights reserved.</span>
+                
+                  
                 </div>
               </div>
             </div>
+            <div class="border-bottom pt-5"></div>
+            <span class="p-3 reserved">© 2024 The Odin Project. All rights reserved.</span>
           </div>
         </div>
 
